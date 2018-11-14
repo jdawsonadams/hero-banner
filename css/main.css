@@ -1,0 +1,26 @@
+html {
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+h1 {
+  background-color: rgba(0, 0, 0, .5);
+  color: #fff;
+  font-size: 4rem;
+}
+
+p {
+  font-size: 2rem;
+}
+
+.banner {
+  max-height: 500px;
+}
+
+div .content {
+  max-width: 50em;
+}
