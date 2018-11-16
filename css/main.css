@@ -1,21 +1,27 @@
 html {
   box-sizing: border-box;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
 }
 
-h1 {
+h2 {
   background-color: rgba(0, 0, 0, .5);
   color: #fff;
   font-size: 4rem;
   margin: 0;
 }
 
+body {
+  overflow: hidden;
+  margin: 0;
+}
+
 p {
   font-size: 2rem;
+  transform: translate(10px);
 }
 
 img {
@@ -31,6 +37,13 @@ div .content {
   position: relative;
 }
 
+.img-flex {
+  display: block;
+  width: 100%;
+}
+
 .content {
   position: absolute;
+  left: auto;
+  bottom: auto;
 }
