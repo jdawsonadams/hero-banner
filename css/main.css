@@ -11,16 +11,26 @@ h1 {
   background-color: rgba(0, 0, 0, .5);
   color: #fff;
   font-size: 4rem;
+  margin: 0;
 }
 
 p {
   font-size: 2rem;
 }
 
-.banner {
+img {
   max-height: 500px;
+  width: 100%;
 }
 
 div .content {
   max-width: 50em;
+}
+
+.banner {
+  position: relative;
+}
+
+.content {
+  position: absolute;
 }
