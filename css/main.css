@@ -11,7 +11,7 @@ h2 {
   background-color: rgba(0, 0, 0, .5);
   color: #fff;
   font-size: 4rem;
-  margin: 0;
+  top: 1px;
 }
 
 body {
@@ -21,7 +21,6 @@ body {
 
 p {
   font-size: 2rem;
-  transform: translate(10px);
 }
 
 img {
@@ -44,6 +43,4 @@ div .content {
 
 .content {
   position: absolute;
-  left: auto;
-  bottom: auto;
 }
